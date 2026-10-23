@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.leinnerr.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "PlayerMoveC2SPacketAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

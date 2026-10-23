@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "leinnerr-addon",
+  "version": "${version}",
+  "name": "Leinnerr Addon",
+  "description": "Meteor Client addon para servidores Anarquico",
+  "authors": ["Leinnerr"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "client",
+  "mixins": ["leinnerr-addon.mixins.json"],
+  "entrypoints": {
+    "meteor": ["com.leinnerr.addon.LeinnerrAddon"]
+  },
+  "custom": {
+    "meteor-client:color": "120,60,200",
+    "meteor-client:authors": ["Leinnerr"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${mc_depend}",
+    "meteor-client": "*"
+  }
+}
